@@ -4,8 +4,8 @@ import Header from './components/Header';
 import AddedFeatures from './components/AddedFeatures';
 import AdditionalFeatures from './components/AdditionalFeatures';
 import Total from './components/Total';
-import  {reducer, initialState } from './reducers/index';
-import { useSelector, useDispatch } from "react-redux";
+import { useSelector } from "react-redux";
+import logger from 'redux-logger';
 
 
 

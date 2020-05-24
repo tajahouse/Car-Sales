@@ -10,6 +10,7 @@ export const deleteFeature = (item) =>{
 }
 
 export const addFeature = (item) =>{
+    console.log(addFeature.type)
     return {
         type:ADD_FEATURES,
         payload: item
